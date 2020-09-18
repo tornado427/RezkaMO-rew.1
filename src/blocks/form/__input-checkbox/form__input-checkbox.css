@@ -1,0 +1,11 @@
+.form__input-checkbox {
+    margin: 4px 0 0 53px;
+    
+}
+
+@media (max-width : 1240px) {
+    .form__input-checkbox {
+        margin: 4px 0 0 0px;
+        transform: scale(1.5)
+    } 
+  }

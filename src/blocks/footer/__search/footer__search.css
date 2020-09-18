@@ -1,0 +1,10 @@
+.footer__search {
+    display: flex;
+    padding-top: 10px;
+    }
+
+    @media (max-width : 1240px) {
+        .footer__search {
+          margin: 15px 0 0 50px;
+        } 
+      }    

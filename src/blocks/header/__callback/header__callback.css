@@ -1,0 +1,23 @@
+.header__callback {
+    font-size: 19px;
+    line-height: 1.3;
+    color: #ED1C24;
+    text-decoration: underline;
+}
+
+.header__callback:hover {
+    text-decoration: none;
+}
+
+
+@media (max-width : 1240px) {
+    .header__callback {
+        font-size: 16.5px;
+        font-weight: 500;
+        line-height: 1.15;
+        letter-spacing: -0.02em;
+        color: #ED1C24;
+        text-decoration: underline;
+        margin-left: 15px;
+    }
+  }

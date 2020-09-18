@@ -1,0 +1,24 @@
+.services__title {
+    font-weight: normal;
+    margin: 0 0 46px 0;
+    color: #000000;
+    line-height: 1.6;
+    letter-spacing: 0.01em;
+    position: relative;
+
+
+    
+
+}
+
+@media (max-width : 1240px) {
+    .services__title {
+        font-size: 18px;
+        line-height: 1.6;
+        font-weight: bold;
+        color: #000000;
+        text-align: center;
+        margin: 0;
+        
+    } 
+  }

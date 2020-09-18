@@ -1,0 +1,12 @@
+.nav__link {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,15 @@
+.bureau__slider {
+    /* position: relative; */
+    max-width: 1920px;
+    margin-top: 20px;
+}
+
+
+
+@media (max-width : 1240px) {
+    .bureau__slider {
+        max-width: 270px;
+        margin: auto;
+        
+    } 
+  }

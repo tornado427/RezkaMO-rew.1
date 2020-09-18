@@ -1,0 +1,11 @@
+.form__inputs {
+    margin-top: 14px;
+    display: flex;
+}
+
+@media (max-width : 1240px) {
+    .form__inputs {
+        display: block;
+        margin-bottom: 16px;
+    } 
+  }

@@ -1,0 +1,13 @@
+.contacts__map {
+    max-width: 1116px;
+    height: 367px;
+    margin: 74px 0 100px 0;
+}
+
+@media (max-width : 1240px) {
+    .contacts__map {
+        max-width: 290px;
+        height: 250px;
+        margin: 50px auto;
+    } 
+  }

@@ -1,0 +1,8 @@
+.industries__item {
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.industries__item:last-child {
+    margin-bottom: 0px;
+}

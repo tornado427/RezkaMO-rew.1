@@ -1,0 +1,7 @@
+.menu__container {
+    min-width: 320px;
+    background-color: #40b7e7;
+    padding: 53px 0;
+    text-align: center;
+    position: relative;
+}

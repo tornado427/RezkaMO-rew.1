@@ -1,0 +1,16 @@
+@import url(./__columns/industries__columns.css);
+@import url(./__line/industries__line.css);
+@import url(./__title/industries__title.css);
+@import url(./__columns-one/industries__columns-one.css);
+@import url(./__image/industries__image.css);
+@import url(./__text/industries__text.css);
+@import url(./__button-detailed/industries__button-detailed.css);
+@import url(./__columns-two/industries__columns-two.css);
+@import url(./__item/industries__item.css);
+@import url(./__button/industries__button.css);
+
+.industries {
+    max-width: 1174px;
+    margin: auto;
+    position: relative;
+}

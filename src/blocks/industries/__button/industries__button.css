@@ -1,0 +1,38 @@
+.industries__button {
+    width: 270px;
+    height: 58px;
+    background-color: #f4f4f4;
+    border: 1px solid #E6E6E6;
+    text-align: start;
+    position: relative;
+    padding-left: 56px;
+}
+
+.industries__button::before {
+    content: "";
+    background-image: url(../../../image/industries-logo.jpg);
+    width: 16px;
+    height: 16px;
+    display:inline-block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.industries__button:hover {
+    background-color: #40B7E7;
+    border: 1px solid #40B7E7;
+    color: #ffffff;
+}
+
+.industries__button:hover:before {
+    content: "";
+    background-image: url(../../../image/industries-logo1.jpg);
+    width: 16px;
+    height: 16px;
+    display:inline-block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+

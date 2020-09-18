@@ -1,0 +1,19 @@
+.advantages__title {
+    font-weight: normal;
+    margin: 0 0 46px 0;
+    color: #000000;
+    font-size: 34px;
+    line-height: 1.6;
+    letter-spacing: 0.01em;
+    position: relative;
+}
+
+@media (max-width : 1240px) {
+    .advantages__title {
+        margin: 0 0 46px 0;        
+        font-size: 30px;
+        line-height: 1.3;
+        letter-spacing: 0.02em;
+        text-align: center;
+    } 
+  }

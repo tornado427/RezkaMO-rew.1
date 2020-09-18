@@ -1,0 +1,17 @@
+.nav__button {
+    background-image: url(../../../image/nav-button.png);
+    width: 62px;
+    height: 55px;
+    z-index: 2;
+    display: none;
+    cursor: pointer;
+}
+
+@media (max-width : 1240px) {
+    .nav__button {
+    position: absolute;
+    top: 3px;
+    left: 302px;
+    display: block;}
+}
+

@@ -1,0 +1,18 @@
+.footer__button {
+    width: 44px;
+    height: 44px;
+    background-color: #40B7E7;
+    border: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.footer__button:before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-image: url(../../../image/search.svg);
+    position: absolute;
+    top: 15px;
+    left: 14px;
+}

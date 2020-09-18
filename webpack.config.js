@@ -1,0 +1,55 @@
+const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+
+module.exports = {
+  entry: './src/js/index.js',
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'index.js'
+  },
+  module: {
+    rules: [
+      {
+        test: /\.m?js$/,
+        exclude: /(node_modules)/,
+        use: {
+          loader: 'babel-loader'
+          
+        }
+      },
+      {
+        test: /\.css$/i,
+        loader: [
+          MiniCssExtractPlugin.loader,
+          {
+            loader: 'css-loader',
+            options: {
+              importLoaders: 1
+            }
+          },
+          'postcss-loader'
+        ],
+      },
+      {
+        test: /\.(png|jpe?g|gif|woff2|woff|svg|ttf|eot)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+          },
+        ],
+      },
+      {
+        test: /\.html$/i,
+        loader: 'html-loader',
+      },
+    ]
+  },
+ 
+  plugins: [
+      new MiniCssExtractPlugin(),
+      new HtmlWebpackPlugin({
+          template: './src/index.html'
+      }),
+  ]
+};

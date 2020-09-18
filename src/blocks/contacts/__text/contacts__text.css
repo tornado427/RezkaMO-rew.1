@@ -1,0 +1,15 @@
+.contacts__text {
+    font-size: 17px;
+    line-height: 1.6;
+    font-weight: normal;
+    letter-spacing: 0.005em;
+    color: #464648;
+    margin: 0 0 15px 0;
+
+}
+
+@media (max-width : 1240px) {
+    .contacts__text {
+        margin: 0 0 15px 0;
+    } 
+  }

@@ -1,0 +1,25 @@
+@import url(./__title/services-form__title.css);
+@import url(./__input/services-form__input.css);
+@import url(./__input-checkbox/services-form__input-checkbox.css);
+@import url(./__label/services-form__label.css);
+@import url(./__link/services-form__link.css);
+@import url(./__button/services-form__button.css);
+
+.services-form {
+
+}
+
+@media (max-width : 1240px) {
+    .services-form {
+        max-width: 380px;
+        height: 481px;
+        background-image: url(../../image/services.jpg);
+        background-size: cover;
+        padding: 58px 0 58px;
+        margin: 0 auto;
+        
+
+        
+    } 
+  }
+

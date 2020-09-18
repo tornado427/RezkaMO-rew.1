@@ -1,0 +1,13 @@
+.consultation__wrap {
+    max-width: 1174px;
+    margin: auto;
+    position: relative;
+}
+
+@media (max-width : 1240px) {
+    .consultation__wrap {
+      max-width: 350px;
+      text-align: center;
+      ;
+    } 
+  }

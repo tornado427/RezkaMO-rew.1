@@ -1,0 +1,16 @@
+.header__contact {
+    min-width: 173px;
+    margin-left: 76px;
+}
+
+@media (max-width : 1240px) {
+    .header__contact {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        top: 110px;
+        left: -66px;
+        z-index: 1;
+
+    } 
+  }

@@ -1,0 +1,10 @@
+.popup__icon-close {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 28px;
+    right: 17px;
+    cursor: pointer;
+
+
+}

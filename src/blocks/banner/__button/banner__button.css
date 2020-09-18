@@ -1,0 +1,26 @@
+.banner__button {
+    width: 270px;
+    height: 58px;
+    background-color: #ED1C24;
+    border: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    margin: 66px 0 0 0;
+    cursor: pointer;
+}
+
+.banner__button:hover {
+    background-color: #D2161D;
+    
+}
+
+@media (max-width : 1240px) {
+    .banner__button {
+      text-align: center;
+      margin: 48px auto 0;
+      display: block;
+    } 
+  }

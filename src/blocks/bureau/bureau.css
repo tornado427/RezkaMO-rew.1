@@ -1,0 +1,21 @@
+@import url(./__wrap/bureau__wrap.css);
+@import url(./__line/bureau__line.css);
+@import url(./__title/bureau__title.css);
+@import url(./__arrows/bureau__arrows.css);
+@import url(./__slider/bureau__slider.css);
+@import url(./__button/bureau__button.css);
+@import url(./__text/bureau__text.css);
+
+.bureau {
+    max-width: 1920px;
+    margin: auto;
+    padding:52px 0 76px;
+}
+
+@media (max-width : 1240px) {
+    .bureau {
+        max-width: 380px;
+        margin: auto;
+        
+    } 
+  }

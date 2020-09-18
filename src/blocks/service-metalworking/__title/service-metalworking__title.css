@@ -1,0 +1,21 @@
+.service-metalworking__title {
+    max-width: 734px;
+    font-weight: normal;
+    padding: 88px 0 0 0;
+    color: #ffffff;
+    font-size: 34px;
+    margin-bottom: 50px;
+
+}
+
+@media (max-width : 1240px) {
+    .service-metalworking__title {
+        font-size: 18px;
+        line-height: 1.6;
+        font-weight: bold;
+        padding: 58px 0 0 0;
+        color: #000000;
+        
+        
+    } 
+  }

@@ -1,0 +1,14 @@
+.footet__link {
+    display: block;
+    font-size: 14px;
+    line-height: 2;
+    font-weight: normal;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.footet__link:hover {
+    text-decoration: underline;
+}

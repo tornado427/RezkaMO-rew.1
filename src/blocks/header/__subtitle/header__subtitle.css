@@ -1,0 +1,14 @@
+.header__subtitle {
+    display: block;
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: normal;
+    color: #464648;
+
+}
+
+@media (max-width : 1240px) {
+    .header__name {
+        margin: 15px 0px 16px
+    } 
+  }

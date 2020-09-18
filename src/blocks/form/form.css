@@ -1,0 +1,29 @@
+@import url(./__line/form__line.css);
+@import url(./__title/form__title.css);
+@import url(./__column-two/form__column-two.css);
+@import url(./__text/form__text.css);
+@import url(./__inputs/form__inputs.css);
+@import url(./__wrap-inputs/form__wrap-inputs.css);
+@import url(./__input/form__input.css);
+@import url(./__input-area/form__input-area.css);
+@import url(./__send/form__send.css);
+@import url(./__input-checkbox/form__input-checkbox.css);
+@import url(./__label/form__label.css);
+@import url(./__link/form__link.css);
+@import url(./__button/form__button.css);
+
+.form {
+    max-width: 1174px;
+    margin: auto;
+    position: relative;
+    display: flex;
+   
+}
+
+
+@media (max-width : 1240px) {
+    .form {
+      display: block;
+      max-width: 380px;
+    } 
+  }

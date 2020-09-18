@@ -1,0 +1,8 @@
+.popup__form {
+    box-sizing: border-box;
+    max-width: 370px;
+    background-color: #ECF1F7;
+    margin: auto;
+    padding: 60px 48px;
+    position: relative;
+}

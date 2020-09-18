@@ -1,0 +1,16 @@
+.slider-industries__slider {
+    max-width: 1174px;
+    
+}
+
+@media (max-width : 1240px) {
+    .slider-industries__slider {
+        max-width: 270px;
+        margin: 0 auto;
+        
+    } 
+  }
+
+
+
+

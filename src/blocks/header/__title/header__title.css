@@ -1,0 +1,13 @@
+.header__title {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.6;
+    text-transform: uppercase;
+}
+
+@media (max-width : 1240px) {
+    .header__title {
+        font-size: 14px;
+        letter-spacing: 0.015em;
+    } 
+  }

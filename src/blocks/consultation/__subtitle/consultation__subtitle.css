@@ -1,0 +1,14 @@
+.consultation__subtitle {
+    font-size: 17px;
+    line-height: 1.5;
+    font-weight: normal;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    margin: 0 0 58px 0;
+}
+
+@media (max-width : 1240px) {
+    .consultation__subtitle {
+        margin: 0 0 40px 0;
+    } 
+  }

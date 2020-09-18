@@ -1,0 +1,15 @@
+.text__paragraf {
+    font-size: 17px;
+    line-height: 1.5;
+    font-weight: normal;
+    letter-spacing: 0.038em;
+    color: #464648;
+}
+
+@media (max-width : 1240px) {
+    .text__paragraf {
+        font-size: 16px;
+        letter-spacing: 0.02em;
+
+    } 
+  }

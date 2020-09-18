@@ -1,0 +1,16 @@
+.form__label {
+    width: 317px;
+    height: 42px;
+    font-size: 13px;
+    line-height: 1.6;
+    font-weight: normal;
+    letter-spacing: 0.01em;
+    color: #343434;
+    margin-left: 17px;
+}
+
+@media (max-width : 1240px) {
+    .form__label {
+        margin-bottom: 16px;
+    } 
+  }

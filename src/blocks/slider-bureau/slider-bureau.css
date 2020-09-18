@@ -1,0 +1,11 @@
+@import url(./__title/slider-bureau__title.css);
+@import url(./__arrows/slider-bureau__arrows.css);
+@import url(./__slider/slider-bureau__slider.css);
+@import url(./__text/slider-bureau__text.css);
+
+.slider-bureau {
+    max-width: 380px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 55px 0 61px;
+}

@@ -1,0 +1,22 @@
+@import url(./__wrap/advantages__wrap.css);
+@import url(./__list/advantages__list.css);
+@import url(./__item/advantages__item.css);
+@import url(./__title/advantages__title.css);
+@import url(./__line/advantages__line.css);
+@import url(./_color/advantages_color_white.css);
+
+
+
+.advantages {
+    max-width: 1920px;
+    margin: auto;
+    background-color: #F4F4F4;
+}
+
+@media (max-width : 1240px) {
+    .advantages {
+      max-width: 380px;
+      margin: 0 auto;
+    } 
+  }
+  

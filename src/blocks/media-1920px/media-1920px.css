@@ -1,0 +1,9 @@
+.media-1920px {
+    
+}
+
+@media (min-width : 1240px) {
+    .media-1920px {
+        display: none;
+    } 
+  }

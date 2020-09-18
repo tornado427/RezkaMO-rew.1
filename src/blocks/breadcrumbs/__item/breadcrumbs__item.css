@@ -1,0 +1,11 @@
+.breadcrumbs__item {
+    display: inline-block;
+  vertical-align: top;
+  margin-right: 5px;
+}
+
+.breadcrumbs__item:not(:last-child):after {
+    content: "-";
+    margin-left: 5px;
+    color: #767676;
+  }

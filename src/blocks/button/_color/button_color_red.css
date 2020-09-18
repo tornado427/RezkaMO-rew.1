@@ -1,0 +1,10 @@
+.button_color_red {
+    background-color: #ED1C24;
+    border: none;
+    color: #ffffff;
+    
+}
+
+.button_color_red:hover {
+    background-color: #D2161D;
+}

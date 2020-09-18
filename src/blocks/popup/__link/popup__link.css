@@ -1,0 +1,7 @@
+.popup__link {
+    color: #40B7E7;
+}
+
+.popup__link:hover {
+    text-decoration: none;
+}

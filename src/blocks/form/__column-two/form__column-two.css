@@ -1,0 +1,9 @@
+.form__column-two {
+    margin-left: 76px;
+}
+
+@media (max-width : 1240px) {
+    .form__column-two {
+        margin: 0 0 0px 0;
+    } 
+  }

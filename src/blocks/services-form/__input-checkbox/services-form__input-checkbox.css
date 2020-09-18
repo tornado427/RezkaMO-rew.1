@@ -1,0 +1,13 @@
+.services-form__input-checkbox {
+
+}
+
+@media (max-width : 1240px) {
+    .services-form__input-checkbox {
+        margin: 18px 0 0 62px;
+        transform:scale(1.5);
+        
+
+        
+    } 
+  }

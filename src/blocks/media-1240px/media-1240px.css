@@ -1,0 +1,9 @@
+.media-1240px {
+    
+}
+
+@media (max-width : 1240px) {
+    .media-1240px {
+        display: none;
+    } 
+  }

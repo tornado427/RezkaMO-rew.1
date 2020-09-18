@@ -1,0 +1,14 @@
+.services-form__label {
+
+}
+
+@media (max-width : 1240px) {
+    .services-form__label {
+        font-size: 13px;
+        line-height: 1.6;
+        letter-spacing: 0.01em;
+        color: #BEBEBE;
+        margin-left: 16px;
+            
+    } 
+  }

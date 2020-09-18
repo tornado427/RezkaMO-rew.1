@@ -1,0 +1,22 @@
+@import url(./__title/slider-industries__title.css);
+@import url(./__slider/slider-industries__slider.css);
+@import url(./__arrows/slider-industries__arrows.css);
+@import url(./__text/slider-industries__text.css);
+
+.slider-industries {
+    max-width: 1174px;
+    margin: 0 auto;
+    
+}
+
+@media (max-width : 1240px) {
+    .slider-industries {
+        max-width: 380px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 55px 0 61px;
+        
+    } 
+  }
+
+

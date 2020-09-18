@@ -1,0 +1,13 @@
+.contacts__title {
+    font-size: 34px;
+    margin-bottom: 41px;
+}
+
+@media (max-width : 1240px) {
+    .contacts__title {
+        font-size: 30px;
+        line-height: 1.3;
+        letter-spacing: 0.02em;
+        color: #101010;
+    } 
+  }

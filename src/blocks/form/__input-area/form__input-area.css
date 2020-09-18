@@ -1,0 +1,21 @@
+.form__input-area {
+    width: 360px;
+    height: 214px;
+    margin-left: 20px;
+    background-color: #f4f4f4;
+    border: none;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #464646;
+    padding: 20px 0 0 28px;
+    box-sizing: border-box;
+    
+}
+
+@media (max-width : 1240px) {
+    .form__input-area {
+        width: 260px;
+        height: 146px;
+        margin-left: 0px;
+    } 
+  }

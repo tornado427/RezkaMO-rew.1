@@ -1,0 +1,14 @@
+.services-form__link {
+
+}
+
+@media (max-width : 1240px) {
+    .services-form__link {
+       color: #40B7E7;  
+    } 
+
+    .services-form__link:hover {
+        color: #40B7E7;
+        text-decoration: none;  
+     }
+  }

@@ -1,0 +1,9 @@
+.advantages__item {
+
+}
+
+@media (max-width : 1240px) {
+    .advantages__item {
+      margin-bottom: 20px;
+    } 
+  }

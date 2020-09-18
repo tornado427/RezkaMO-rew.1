@@ -1,0 +1,16 @@
+.services-form__input {
+
+}
+
+@media (max-width : 1240px) {
+    .services-form__input {
+        display: block;
+        margin: 0px auto 18px;
+        width: 232px;
+        height: 58px;
+        font-size: 14px;
+        line-height: 1.6;
+        padding-left: 24px;
+        
+    } 
+  }

@@ -1,0 +1,17 @@
+@import url(./__list/nav__list.css);
+@import url(./__link/nav__link.css);
+@import url(./__button/nav__button.css);
+
+.nav {
+    max-width: 1920px;
+    height: 60px;
+    background-color: #40B7E7;
+}
+
+@media (max-width : 1240px) {
+    .nav {
+      max-width: 380px;
+      margin: 0 auto;
+      position: relative;
+    } 
+  }

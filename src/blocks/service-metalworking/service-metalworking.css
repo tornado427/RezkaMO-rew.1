@@ -1,0 +1,23 @@
+@import url(./__wrapper/service-metalworking__wrapper.css);
+@import url(./__line/service-metalworking__line.css);
+@import url(./__title/service-metalworking__title.css);
+@import url(./__title/_lighter/service-metalworking__title_lighter.css);
+@import url(./__button/service-metalworking__button.css);
+
+
+.service-metalworking {
+    max-width: 100%;
+    /* height: 481px; */
+    background-image: url(../../image/services.jpg);
+    background-size: cover;
+}
+
+@media (max-width : 1240px) {
+    .service-metalworking {
+        max-width: 380px;
+        background-image: none;
+        margin: 0 auto;
+        text-align: center;
+        
+    } 
+  }

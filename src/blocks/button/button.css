@@ -1,0 +1,13 @@
+@import url(./_color/button_color_red.css);
+@import url(./_color/button_color_white.css);
+
+
+.button {
+    width: 270px;
+    height: 58px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+}

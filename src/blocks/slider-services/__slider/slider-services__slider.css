@@ -1,0 +1,11 @@
+.slider-services__slider {
+    max-width: 1170px
+}
+
+@media (max-width : 1240px) {
+    .slider-services__slider {
+        max-width: 270px;
+        margin: 0 auto;
+        
+    } 
+  }

@@ -1,0 +1,22 @@
+@import url(./__wrap/contacts__wrap.css);
+@import url(./__line/contacts__line.css);
+@import url(./__title/contacts__title.css);
+@import url(./__text/contacts__text.css);
+@import url(./__button/contacts__button.css);
+@import url(./__map/contacts__map.css);
+
+.contacts {
+    max-width: 1174px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    
+}
+
+@media (max-width : 1240px) {
+    .contacts {
+        max-width: 380px;
+        display: block;
+        text-align: center;
+    } 
+  }

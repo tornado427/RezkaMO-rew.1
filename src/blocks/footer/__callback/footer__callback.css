@@ -1,0 +1,13 @@
+.footer__callback {
+    font-size: 17px;
+    line-height: 1.9;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    color: #ED1C24;
+    display: block;
+}
+
+.footer__callback:hover {
+    text-decoration: none;
+
+}

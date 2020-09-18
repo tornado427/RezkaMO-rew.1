@@ -1,0 +1,15 @@
+@import url(./__paragraf/text__paragraf.css);
+
+.text {
+    max-width: 1174px;
+    margin: 0 auto;
+    padding: 64px 0;
+}
+
+@media (max-width : 1240px) {
+    .text {
+        max-width: 380px;
+        padding:0;
+
+    } 
+  }

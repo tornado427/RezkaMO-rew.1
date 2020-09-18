@@ -1,0 +1,19 @@
+@import url(./__item/breadcrumbs__item.css);
+@import url(./__link/breadcrumbs__link.css);
+@import url(./__link/_active/breadcrumbs__link_active.css);
+
+.breadcrumbs {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 24px;
+    left: 0;
+}
+
+@media (max-width : 1240px) {
+    .breadcrumbs {
+        top: 0px;
+        left: 15px;
+    } 
+  }

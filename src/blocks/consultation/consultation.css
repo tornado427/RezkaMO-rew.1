@@ -1,0 +1,19 @@
+@import url(./__wrap/consultation__wrap.css);
+@import url(./__title/consultation__title.css);
+@import url(./__line/consultation__line.css);
+@import url(./__subtitle/consultation__subtitle.css);
+
+.consultation {
+    max-width: 100%;
+    background-image: url(../../image/consultation.jpg);
+    background-size: cover;
+    padding: 63px 0 65px;
+}
+
+
+@media (max-width : 1240px) {
+    .consultation {
+      max-width: 380px;
+      margin: 0 auto;
+    } 
+  }
