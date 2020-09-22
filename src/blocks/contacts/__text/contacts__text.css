@@ -10,6 +10,8 @@
 
 @media (max-width : 1240px) {
     .contacts__text {
-        margin: 0 0 15px 0;
+        margin: 0 auto 10px;
+        width: 242px;
+        
     } 
   }

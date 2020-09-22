@@ -1,4 +1,7 @@
 @import url(./__paragraf/text__paragraf.css);
+@import url(./__list/text__list.css);
+@import url(./__list-item/text__list-item.css);
+@import url(./__list-item/_color/text__list-item_color_blue.css);
 
 .text {
     max-width: 1174px;

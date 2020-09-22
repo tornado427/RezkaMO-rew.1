@@ -13,7 +13,7 @@
     .services-form {
         max-width: 380px;
         height: 481px;
-        background-image: url(../../image/services.jpg);
+        background-image: url(../../image/services1.jpg);
         background-size: cover;
         padding: 58px 0 58px;
         margin: 0 auto;
@@ -22,4 +22,6 @@
         
     } 
   }
+
+
 

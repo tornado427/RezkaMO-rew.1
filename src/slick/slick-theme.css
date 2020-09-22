@@ -127,7 +127,7 @@
 }
 .slick-prev
 {
-    left: 1320px;
+    left: 1130px;
     background: url('../image/slider-arrow-left.svg');
     width: 10px;
     height: 17px;
@@ -177,7 +177,7 @@
 }
 .slick-next
 {
-    left: 1340px;
+    left: 1166px;
     background: url('../image/slider-arrow-right.svg');
     width: 10px;
     height: 17px;

@@ -1,3 +1,6 @@
+import '../pages/index.css'
+import './slick-engineering.js';
+
 const menu = document.querySelector('.menu');
 const popupCallMe = document.querySelector('.popup_type_normal');
 const popupNotification = document.querySelector('.popup_type_notification');

@@ -15,5 +15,7 @@
     .consultation {
       max-width: 380px;
       margin: 0 auto;
+      background-image: url(../../image/consultation1.jpg);
+    background-size: cover;
     } 
   }

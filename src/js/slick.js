@@ -20,7 +20,7 @@ $(document).ready(function(){
         appendArrows:$('.bureau__arrows'),
         responsive: [
             {
-            breakpoint: 1700,
+            breakpoint: 1800,
             settings: {
                 arrows: true,
                 centerMode: true,
@@ -28,6 +28,15 @@ $(document).ready(function(){
                 slidesToShow: 5
             }
             },
+            {
+                breakpoint: 1500,
+                settings: {
+                    arrows: true,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 4
+                }
+                },
             {
             breakpoint: 1280,
             settings: {
