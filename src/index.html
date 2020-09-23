@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
     <!-- <link rel="stylesheet" href="./pages/index.css">
     <link rel="stylesheet" href="./slick/slick.css">
     <link rel="stylesheet" href="./slick/slick-theme.css"> -->
@@ -12,17 +13,17 @@
 
 <body class="page">
 
-    <header class="header">
-         <a href="#"  class="header__logo"></a>
+    <header class="header" itemscope itemtype="http://schema.org/Organization">
+         <a href="#"  class="header__logo" itemprop="logo"></a>
         
-        <div class="header__name">
-            <div class="header__title">Контрактное производство</div>
+        <div class="header__name" itemscope itemtype="http://schema.org/PostalAddress">
+            <div class="header__title" itemscope itemtype="http://schema.org/Product" itemprop="brand">Контрактное производство</div>
             <div class="header__subtitle">Любые изделия из металла <span class="media-1240px">для вашей отрасли</span></div>
         </div>
-        <a href="" class="header__mail media-1240px">info@rezka.ru</a>
+        <a href="" class="header__mail media-1240px" itemprop="email">info@rezka.ru</a>
         
         <div class="header__contact">            
-            <p class="header__tel">+7 (700) 777-70-70</p>
+            <p class="header__tel" itemprop="telephone">+7 (700) 777-70-70</p>
             <a href="#" class="header__callback">Заказать звонок</a>
         </div>
     </header>
@@ -56,7 +57,7 @@
         <section class="banner">
             <div class="banner__wrap">
                 <img src="./image/banner-line.svg" alt="" class="line banner__line media-1240px">
-               <h2 class="banner__title">ОЕМ компания — «оригинальный производитель оборудования»</h2>
+               <h1 class="banner__title">ОЕМ компания — «оригинальный производитель оборудования»</h1>
                 <p class="banner__subtitle">Ваша задумка — наша реализация</p> 
                 <ul class="banner__list media-1240px">
                     <li class="banner__item">Качественное  <br>исполнение</li>
@@ -385,16 +386,16 @@
 
         <section class="contacts media-1240px">
             
-            <div class="contacts__wrap">
+            <div class="contacts__wrap" itemscope itemtype="http://schema.org/PostalAddress">
                 <img src="./image/banner-line.svg" alt="" class="line contacts__line">
                 <h2 class="title contacts__title">Контакты</h2>
-                <p class="contacts__text">Место для адреса компании (город, улица, дом)</p>
-                <p class="contacts__text">Номер телефона: <span class="contacts__text contacts__text_type_bold">+7 (700) 777-70-70</span></p>
-                <p class="contacts__text">Электронная почта: <a href="" class="contacts__link">info@rezka.ru</a></p>
+                <p class="contacts__text" itemprop="streetAddress">Место для адреса компании (город, улица, дом)</p>
+                <p class="contacts__text">Номер телефона: <span class="contacts__text contacts__text_type_bold" itemprop="telephone">+7 (700) 777-70-70</span></p>
+                <p class="contacts__text" itemprop="email">Электронная почта: <a href="" class="contacts__link">info@rezka.ru</a></p>
                 <button class="button button_color_red contacts__button">заказать звонок</button>
             </div>
-            <div class="contacts__map">
-                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A720fd5ef8cbf061e350ba2af682beaf540935e635c7e8efa382edb69bee171b1&amp;source=constructor" width="800" height="345" frameborder="0"></iframe>
+            <div class="contacts__map" itemscope itemtype="http://schema.org/Map">
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A720fd5ef8cbf061e350ba2af682beaf540935e635c7e8efa382edb69bee171b1&amp;source=constructor" width="800" height="345" frameborder="0" itemprop="mapType"></iframe>></iframe>
             </div>
         </section>
         
